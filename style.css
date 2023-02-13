@@ -48,7 +48,7 @@
   color: aliceblue;
   background-color: #31313d;
   position: absolute;
-  top: 38px;
+  top: 37.5px;
   left: 76px;
   letter-spacing: 1.1px;
 }
@@ -64,6 +64,7 @@
   position: absolute;
   top: 20px;
   left: 37.5px;
+  padding-left: 3px;
   background-color: #c46522;
   letter-spacing: 1.1px;
   display: flex;
