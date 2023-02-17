@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  
 }
 .border {
   width: 100%;
@@ -64,8 +63,8 @@
   border-radius: 50%;
   position: absolute;
   top: 20px;
-  left: 37.5px;
-  padding-left: 3px;
+  left: 38px;
+  padding-left: 2.5px;
   background-color: #c46522;
   letter-spacing: 1.1px;
   display: flex;
