@@ -149,11 +149,11 @@
   background-color: #3d4051;
 }
 .sharx {
-  width: auto;
-  height: 6px;
+  width: 60px;
+  height: 16px;
   position: absolute;
   color: aliceblue;
-  background-color: #181820;
+  background: #181820;
   top: 194px;
   left: 198px;
   letter-spacing: 0.3px;
