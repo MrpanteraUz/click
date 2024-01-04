@@ -7,7 +7,7 @@
 .border {
   width: 100%;
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
@@ -173,4 +173,112 @@
 }
 .sum > p {
   font-size: 10px;
+}
+.border_2 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_2 {
+  width: 400px;
+  height: 400px;
+}
+
+.border_3 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: cencter;
+  position: relative;
+}
+.logos {
+  width: 450px;
+  height: 450px;
+  background: rgb(7, 0, 117);
+  background: radial-gradient(
+    circle,
+    rgba(7, 0, 117, 0.9668242296918768) 0%,
+    rgba(11, 11, 62, 1) 61%,
+    rgba(5, 46, 94, 1) 96%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 350px;
+}
+
+.asos {
+  width: 345px;
+  height: 345px;
+  border: 2px solid rgba(12, 234, 215, 0.8);
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(12, 234, 215, 0.8);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(12, 234, 215, 0.8);
+  box-shadow: 0px 0px 12px 2px rgba(12, 234, 215, 0.8);
+  border-radius: 51%;
+  background-color: rgba(12, 234, 215, 0.8);
+}
+.asos_2 {
+  width: 341px;
+  height: 341px;
+  border: 1px solid #fff;
+  background-color: #01304d;
+  border-radius: 51%;
+  position: absolute;
+  left: 404px;
+  z-index: 10;
+}
+.asos_3 {
+  width: 255px;
+  height: 255px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-radius: 51%;
+  position: absolute;
+  left: 446.5px;
+  z-index: 11;
+  overflow: hidden;
+}
+
+.law {
+  width: 250px;
+  height: 250px;
+}
+.huquq {
+  width: 42px;
+  height: 22px;
+  transform: rotate(40deg);
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+.back {
+  font-size: 50px;
+  color: red;
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+
+i {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  font-size: 22px;
+  color: #d3e9e6;
+  font-weight: 300;
+}
+
+.since {
+  position: absolute;
+  top: 225px;
+  left: 90px;
 }
