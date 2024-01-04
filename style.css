@@ -177,6 +177,7 @@
 .border_2 {
   width: 100%;
   height: 100vh;
+  background-color: ;
   margin-top: 200px;
   display: flex;
   align-items: center;
@@ -191,21 +192,24 @@
   width: 100%;
   height: 100vh;
   margin-top: 200px;
+  background-image: linear-gradient(
+    330deg,
+    hsl(226deg 94% 19%) 0%,
+    hsl(226deg 100% 12%) 20%,
+    hsl(226deg 100% 11%) 40%,
+    hsl(226deg 100% 11%) 60%,
+    hsl(226deg 100% 12%) 80%,
+    hsl(226deg 94% 19%) 100%
+  );
   display: flex;
   align-items: center;
-  justify-content: cencter;
+  justify-content: center;
   position: relative;
 }
 .logos {
   width: 450px;
   height: 450px;
-  background: rgb(7, 0, 117);
-  background: radial-gradient(
-    circle,
-    rgba(7, 0, 117, 0.9668242296918768) 0%,
-    rgba(11, 11, 62, 1) 61%,
-    rgba(5, 46, 94, 1) 96%
-  );
+
   display: flex;
   align-items: center;
   justify-content: center;
